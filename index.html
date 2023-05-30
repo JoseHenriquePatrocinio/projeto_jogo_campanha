@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Desasfios Unisenai" content="Contador de Incremento">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="authors" content="Sestito & Uchôa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pegar o Inseto</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Pegar o Insetot</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Qual é o seu inseto "favorito"?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Cigarro</p>
+            <img src="download.png" alt="cigarrete">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img
+               src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Aranha</p>
+            <img
+               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Barata</p>
+            <img
+               src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Na batalha contra o tabagismo, seu maior adversário é você mesmo!<br> 
+        Derrote o vício, ganhe vida extra e liberte-se para conquistar níveis mais saudáveis!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
